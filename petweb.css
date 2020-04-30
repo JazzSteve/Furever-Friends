@@ -324,6 +324,12 @@
 
 	/*Media Queries*/
 
+@media (min-width: 992px){
+	.quote-text{
+		height: 184px;
+	}
+}
+
 @media (min-width: 768px) and (max-width:991px){
 
 	        /*NAVBAR*/
@@ -338,9 +344,6 @@
 		}
 
 			/*ABOUT SECTION*/
-		.about-section .container{
-			/*width: 100%;*/
-		}
 
 		.about-list li{
 			line-height: 2; 
@@ -349,7 +352,6 @@
 		.about-img img{
 			max-width: 350px;
 			text-align: right;
-			/*margin: auto;*/
 		}
 
 			/*SERVICES SECTION*/
@@ -358,8 +360,14 @@
 		}
 
 		/*TESTIMONIALS SECTION*/
-		.test-title{
-			margin-bottom: 20px;
+		.test-title {
+			margin: auto;
+			margin-bottom: 10px;
+		}
+
+		.testimonial{
+			padding-top: 0;
+			height: 450px;
 		}
 
 }
@@ -402,7 +410,6 @@
 		}
 
 		/*CONTACT SECTION*/
-
 		.bg2 {
 			margin-top: 80px;
 		}
@@ -449,8 +456,5 @@
 	.bg2 {
 		order: 1;
 	}
-
-	/*FOOTER*/
-
 
 }
