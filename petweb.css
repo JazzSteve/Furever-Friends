@@ -55,8 +55,6 @@
   	background-position: top;
   	background-position: center center; 
   	height: 500px;
-  	/*min-height: 400px;
-  	height: calc(100vh);*/ 
   	position: relative;
   	width:100%;
   	object-fit: cover;
@@ -383,6 +381,7 @@
 		text-align: center;
 		width: 100%;
 	}
+	
 	/*ABOUT SECTION*/
 
 	.about-text h5{
@@ -435,6 +434,22 @@
 			padding-left: 0;
 		}
 
+		.facebook i {
+			color: #2459ad;
+		}
+
+		.twitter i {
+			color: #689ced;
+		}
+
+		.instagram i {
+			color: #f0295e;
+		}
+
+		.footer-brand {
+			padding-top: 20px;
+			padding-bottom: 20px;
+		}
 }
 
 @media(max-width: 576px){
