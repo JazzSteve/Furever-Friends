@@ -1,12 +1,12 @@
 
 /*NAVBAR*/
-#mainnavbar{
+#mainnavbar {
 	background-color: #f7ad45;
 	height: 100px;
 
 }
 
-.navbar-brand{
+.navbar-brand {
 	color: white;
 	margin-left: 40px;
 	font-size: 2rem;
@@ -16,50 +16,54 @@
 	font-family: 'Lakki Reddy', cursive;
 }
 
-.navbar-brand .fa-paw{
+.navbar-brand .fa-paw {
 	color: #F9575C;
 	font-size: 35px;
 }
 
-.navbar-toggler i{
+.navbar-toggler i {
 	color: #F9575C;
 	font-size: 25px;
 }
 
-.navbar-list{
+.navbar-list {
 	justify-content: flex-end;
 	
 }
 
-.navbar-nav .nav-item{
+.navbar-nav .nav-item {
 	padding-right: 20px;
 }
 
-.navbar-nav .nav-link{
+.navbar-nav .nav-link .home a {
+	background: #F9575C;
+	border-radius: 355px 45px 225px 75px/15px 225px 15px 255px;
+}
+
+.navbar-nav .nav-link {
 	color: white;
 	font-weight: 700;
 	background-color: #f7ad45;
 	font-family: 'Poppins', sans-serif;
 }
 
-.nav-item a:hover{
+.nav-item a:hover {
 	background-color: #F9575C;
 	border-radius: 355px 45px 225px 75px/15px 225px 15px 255px;
 }
 
 /*Image Slideshow*/
 
-.slideshowContainer img{
+.slideshowContainer img {
   	background-size: cover;
   	background-repeat: no-repeat;
   	background-position: top;
   	background-position: center center; 
-  	height: 500px;
+  	height: 600px;
   	position: relative;
   	width:100%;
   	object-fit: cover;
   	overflow: hidden;
-
 }
 
  [data-component="slideshow"] .slide {
