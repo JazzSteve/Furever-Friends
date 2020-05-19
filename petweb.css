@@ -297,7 +297,7 @@
 	color: #f0295e;
 }
 
-.copright-text {
+.copyright-text {
 	margin: 0;
 }
 
@@ -331,9 +331,7 @@
 	}
 }
 
-@media (min-width: 768px) and (max-width:991px){
-
-	        /*NAVBAR*/
+@media (min-width: 768px) and (max-width:991px) {
 		.navbar-brand{
 			margin:auto;
 			padding-right: 10px;
@@ -370,7 +368,6 @@
 			padding-top: 0;
 			height: 450px;
 		}
-
 }
 
 @media(max-width: 767px){
@@ -389,6 +386,7 @@
 
 	.about-text h5{
 		padding: 0px 20px;
+		text-align: center;
 	}
 
 	.about-title{
@@ -402,7 +400,7 @@
 
 	.about-list li{
 		line-height: 2;
-		padding: 0px 20px;
+		padding: 10px 20px;
 	}
 
 	/*TESTIMONIALS SECTION*/
@@ -411,48 +409,48 @@
 			margin-bottom: 10px;
 		}
 
-		/*CONTACT SECTION*/
-		.bg2 {
-			margin-top: 7.5rem;
-		}
+	/*CONTACT SECTION*/
+	.bg2 {
+		margin-top: 7.5rem;
+	}
 
-		.address {
-			text-align: center;
-			padding-left: 0;
-		}
+	.address {
+		text-align: center;
+		padding-left: 0;
+	}
 
-		 /*FOOTER*/
+	 /*FOOTER*/
 
-		.site-footer{
-			text-align: center;
-			padding-top: 0;
-		}
+	.site-footer{
+		text-align: center;
+		padding-top: 0;
+	}
 
-		.footer-links{
-			padding-left: 0;
-		}
+	.footer-links{
+		padding-left: 0;
+	}
 
-		.site-footer ul{
-			text-align: center;
-			padding-left: 0;
-		}
+	.site-footer ul{
+		text-align: center;
+		padding-left: 0;
+	}
 
-		.facebook i {
-			color: #2459ad;
-		}
+	.facebook i {
+		color: #2459ad;
+	}
 
-		.twitter i {
-			color: #689ced;
-		}
+	.twitter i {
+		color: #689ced;
+	}
 
-		.instagram i {
-			color: #f0295e;
-		}
+	.instagram i {
+		color: #f0295e;
+	}
 
-		.footer-brand {
-			padding-top: 20px;
-			padding-bottom: 20px;
-		}
+	.footer-brand {
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
 }
 
 @media(max-width: 576px){
