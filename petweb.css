@@ -463,6 +463,11 @@
 		font-size: 20px;
 	}
 
+	/*ABOUT SECTION*/
+	.testimonial {
+		height: 100%;
+	}
+
 	/*CONTACT SECTION*/
 
 	.bg1 {
@@ -471,6 +476,7 @@
 
 	.bg2 {
 		order: 1;
+		margin: 0;
 	}
 
 }
