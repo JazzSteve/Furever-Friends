@@ -464,12 +464,16 @@
 	}
 
 	/*ABOUT SECTION*/
+	.about-list {
+		padding-left: 15px;
+	}
+
+	/*TESTIMONIAL SECTION*/
 	.testimonial {
 		height: 100%;
 	}
 
 	/*CONTACT SECTION*/
-
 	.bg1 {
 		order: 2;
 	}
