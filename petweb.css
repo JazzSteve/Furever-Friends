@@ -52,6 +52,10 @@
 	border-radius: 355px 45px 225px 75px/15px 225px 15px 255px;
 }
 
+.navbar-toggler:focus, .navbar-toggler:hover {
+	outline: none;
+}
+
 /*Image Slideshow*/
 
 .slideshowContainer img {
@@ -462,7 +466,7 @@
 	.navbar-brand .fa-paw {
 		font-size: 20px;
 	}
-	
+
 	/*SLIDESHOW*/
 	.slideshowContainer img {
 		height: 440px;
